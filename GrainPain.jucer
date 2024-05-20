@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="YWE0M4" name="GrainPain" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="XSLWsC" name="GrainPain">
+    <GROUP id="{8C4DCA24-A0F7-E2EB-39D1-23BE75E08802}" name="Source">
+      <FILE id="BhnXeP" name="Parameters.cpp" compile="1" resource="0" file="Source/Parameters.cpp"/>
+      <FILE id="KZbVCo" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
+      <FILE id="ZbPFWu" name="Grain.cpp" compile="1" resource="0" file="Source/Grain.cpp"/>
+      <FILE id="yIA0z2" name="Grain.h" compile="0" resource="0" file="Source/Grain.h"/>
+      <FILE id="qPuA1I" name="Shapes.cpp" compile="1" resource="0" file="Source/Shapes.cpp"/>
+      <FILE id="EUxLVT" name="Shapes.h" compile="0" resource="0" file="Source/Shapes.h"/>
+      <FILE id="Dj52gG" name="Sample.cpp" compile="1" resource="0" file="Source/Sample.cpp"/>
+      <FILE id="gzZoku" name="Sample.h" compile="0" resource="0" file="Source/Sample.h"/>
+      <FILE id="m6XP37" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="GsLR5U" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+      <FILE id="tIsH0b" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="VZg3ox" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="rnKFnj" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Hl7sb8" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="IHqGJl" name="Synth.cpp" compile="1" resource="0" file="Source/Synth.cpp"/>
+    <FILE id="LtrlT7" name="Synth.hpp" compile="0" resource="0" file="Source/Synth.hpp"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="GrainPain"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="GrainPain"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE 2/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE 2/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
